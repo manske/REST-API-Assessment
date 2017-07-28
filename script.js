@@ -45,7 +45,7 @@
 			appendMe += "<p><strong>Scientific Name:</strong> " + result.animal.scientificName + "</p>";
 
 			if (!(result.animal.id < 4)) {
-				appendMe += "<form class=\"remove-animal\" action=\"http://animalrestapi.azurewebsites.net/Animal/Delete?candidateID=5b443a21-0175-4832-8421-b4f15f6d0f23\" method=\"post\">";
+				appendMe += "<form class=\"remove-animal\" action=\"https://animalrestapi.azurewebsites.net/Animal/Delete?candidateID=5b443a21-0175-4832-8421-b4f15f6d0f23\" method=\"post\">";
 				appendMe += "<input name=\"id\" style=\"display:none;\" value=\"" + result.animal.id + "\">"; 
 				appendMe += "<button type=\"submit\" class=\"btn btn-default\">Delete Animal</button>";
 				appendMe += "</form>";
