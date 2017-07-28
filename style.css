@@ -1,0 +1,109 @@
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+/*-- TYPOGRAPHY --*/
+
+h1, 
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #00897b; 
+	font-weight: 400;
+}
+
+/*-- HEADER --*/
+
+.navbar {
+	background-color: #00897b;
+	font-weight: 300;
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.20);
+	min-height: 70px;
+}
+
+.navbar-header a.navbar-brand {
+	color: #ffffff;
+	padding: 25px 15px;
+}
+
+.navbar-header a.navbar-brand:hover {
+	color: #ffffff;
+}
+
+/*-- ANIMAL LIST --*/
+
+.animal {
+	color: #fdfdfd;
+	font-size: 20px;
+	font-weight: 300;
+	box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.20);
+	width: 300px;
+	margin: 20px 0;
+	padding-left: 16px;
+	text-align: left;
+	background-color: #1abc9c;
+	border-radius: 4px;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+	display: flex;
+	align-items: stretch;
+}
+
+.animal-name {
+      box-sizing: content-box;
+      align-items: center;
+      display: flex;
+      width: 75%;
+      padding: 20px;
+      position: relative;
+}
+
+.more-info {
+	width: 25%;
+	padding: 20px;
+    	background-color: #fdfdfd;
+    	cursor: pointer;
+    	font-size: 20px;
+    	color: #1abc9c;
+}
+
+.more-info:hover {
+	background-color: #f9f9f9;
+	color: #00897b;
+}
+
+.more-info::after {
+	content: "\2139";
+	font-size: 40px;
+	line-height: 20px;
+}
+
+.right-side {
+	margin-top: 70px;
+}
+
+/*-- ANIMAL INFO --*/
+
+.animal-image {
+	border-right: 1px solid #d3d3d3;
+}
+
+.animal-image img {
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
+/*-- ADD REMOVE ANIMAL --*/
+
+.add-remove {
+	margin-top: 20px;
+}
+
+
+
+       
