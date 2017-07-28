@@ -20,7 +20,7 @@
 		
 	};
 
-	animalGetRequest('http://animalrestapi.azurewebsites.net/Animal/List').then(function(result) {
+	animalGetRequest('https://animalrestapi.azurewebsites.net/Animal/List').then(function(result) {
 		console.log(result);
 		var animals = result.list;
 	      for (var i = 0; i < animals.length; i++) {
@@ -36,7 +36,7 @@
 
 	function getAnimalInfo() {
 		console.log(this.dataset.id);
-		var url = 'http://animalrestapi.azurewebsites.net/Animal/Id/' + this.dataset.id;
+		var url = 'https://animalrestapi.azurewebsites.net/Animal/Id/' + this.dataset.id;
 		animalGetRequest(url).then(function(result) {
 			document.getElementsByClassName("animal-image")[0].innerHTML = "<img src=\"" + result.animal.imageURL + "\">"; 
 
